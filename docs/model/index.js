@@ -1,1 +1,0 @@
-var a={async getFeedback(){return await(await fetch("/model/feedback.json")).json()},async getUsers(){return await(await fetch("/model/users.json")).json()},async getAnalytics(){return await(await fetch("/model/analytics.json")).json()}};export{a as default};
